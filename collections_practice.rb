@@ -44,6 +44,12 @@ end
 def_add_s(array)
   new array = [ ]
   array.each_with_index do |word, index|
-    new_array << word.push "s"
+    unless word == array[1]
+      new_array << word.push "s"
+    else
+      new_array << word
+    end
+  end
+end
     
   
