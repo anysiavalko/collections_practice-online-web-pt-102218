@@ -21,3 +21,13 @@ end
 def reverse_array(numbers)
   numbers.reverse
 end
+
+def kesha_maker(array)
+  array = string.splt[","]
+  new_array = [ ]
+  array.each do |string|
+    new_array.push(string[2] = "$")
+  end
+  new_array
+end
+  
