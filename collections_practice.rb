@@ -38,5 +38,8 @@ def find_a(array)
 end
 
 def sum_array(numbers)
+  numbers.inject(:+)
+  return numbers
+end
 
   
