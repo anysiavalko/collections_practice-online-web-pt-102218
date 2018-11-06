@@ -42,7 +42,7 @@ def sum_array(numbers)
 end
 
 def_add_s(array)
-  new array = [ ]
+  new_array = [ ]
   array.each do |word|
     if word == array[1]
       new_array << word
