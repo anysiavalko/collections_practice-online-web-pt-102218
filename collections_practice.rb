@@ -48,7 +48,6 @@ def_add_s(array)
       new_array << word
     elsif word != array[1]
       new_array << word.push("s")
-    end
   end
 end
     
