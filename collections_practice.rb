@@ -50,6 +50,7 @@ def_add_s(array)
       new_array << word.push("s")
     end
   end
+  new_array
 end
     
   
