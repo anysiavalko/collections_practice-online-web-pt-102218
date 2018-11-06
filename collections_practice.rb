@@ -23,11 +23,9 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(array)
-  array = string.splt[","]
   new_array = [ ]
   array.each do |string|
     new_array << string[2] = "$"
   end
-  new_array.join(",")
 end
   
