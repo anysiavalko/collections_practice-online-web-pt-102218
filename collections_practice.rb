@@ -41,7 +41,7 @@ def sum_array(numbers)
   numbers.inject(:+)
 end
 
-def_add_s(array)
+def add_s(array)
   new_array = [ ]
   array.each do |word|
     if word == array[1]
