@@ -28,4 +28,14 @@ def kesha_maker(array)
     new_array << string[2] = "$"
   end
 end
+#I did not have to make the array into a string first.
+#Somehow that was messing it up.
+
+def find_a(array)
+  array.select do |word|
+    word.start_with? ("a")
+  end
+end
+
+
   
