@@ -41,4 +41,9 @@ def sum_array(numbers)
   numbers.inject(:+)
 end
 
+def_add_s(array)
+  new array = [ ]
+  array.each_with_index do |word, index|
+    new_array << word.push "s"
+    
   
