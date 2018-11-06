@@ -43,7 +43,7 @@ end
 
 def_add_s(array)
   new array = [ ]
-  array.each_with_index do |word, index|
+  array.each do |word|
     if word == array[1]
       new_array << word
     else
